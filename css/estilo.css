@@ -85,3 +85,7 @@ main{
     display:inline-block;  
     padding: 1rem;
 }
+.carousel {
+    width:640px;
+    height:360px;
+}
