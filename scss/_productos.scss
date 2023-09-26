@@ -1,0 +1,12 @@
+main {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+
+    .carousel {
+        width: 640px;
+        height: 360px;
+    }
+}

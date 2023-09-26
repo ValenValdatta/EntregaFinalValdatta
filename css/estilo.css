@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h2 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
 body {
   background-color: rgb(49, 141, 65);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,62 +17,42 @@ body {
 header {
   background-color: rgb(4, 117, 0);
 }
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+header nav div a {
+  color: black;
+  text-decoration: none;
+}
+header nav div a:hover {
+  color: white;
+  background-color: rgb(49, 141, 65);
+  border-radius: 5px;
+}
+header nav div ul {
+  padding: 1.5rem;
+}
+header nav div ul li .nav-item:hover {
+  background-color: rgb(49, 141, 65);
+  border-radius: 5px;
+}
 
 footer {
   background-color: rgb(4, 117, 0);
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
-
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  color: black;
-}
-
-h2 {
-  text-align: center;
-  padding-top: 3rem;
-}
-
-h4 {
+footer .redes {
   text-align: center;
 }
-
-a {
-  color: black;
-  text-decoration: none;
+footer .redes .logoredes {
+  width: 50px;
+  padding: 5px;
 }
-
-a:hover {
-  color: white;
-}
-
-p {
-  padding: 1rem;
-}
-
-ul {
-  padding: 1.5rem;
-}
-
-.formulario {
+footer h4 {
   text-align: center;
-}
-
-.productos {
-  width: 220px;
-  border-radius: 10px;
-}
-
-.logopagina {
-  width: 150px;
-  padding-left: 3rem;
-}
-
-.ofertas {
-  width: 400px;
-  border-radius: 10px;
 }
 
 main {
@@ -78,46 +63,34 @@ main {
   padding-top: 5rem;
 }
 
-.redes {
-  text-align: center;
-}
-
-.logoredes {
-  width: 50px;
-  padding: 5px;
-}
-
-.menu {
-  text-align: center;
-  font-size: 1.5rem;
-  list-style: none;
-}
-
-.menu li {
-  display: inline-block;
+main {
+  height: 600px;
+  display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+main .carousel {
+  width: 640px;
+  height: 360px;
+}
+
+main div p {
+  padding: 1rem;
+}
+
+main .formulario {
+  text-align: center;
+}
+
+main .terminos {
+  display: inline-block;
   padding: 1rem;
 }
 
 .terminos {
   display: inline-block;
   padding: 1rem;
-}
-
-.carousel {
-  width: 640px;
-  height: 360px;
-}
-
-.nav-item:hover {
-  background-color: rgb(49, 141, 65);
-  border-radius: 5px;
-}
-
-.navbar-brand:hover {
-  background-color: rgb(49, 141, 65);
-  border-radius: 5px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
