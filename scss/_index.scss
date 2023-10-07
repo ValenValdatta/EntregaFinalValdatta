@@ -1,15 +1,4 @@
-main {
-    .container {
-        min-height: 100vh;
-        
-    }
-    .cajaOfertas {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 400px;
-        p {
-            text-align: center;
-        }
-    }
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
 }
