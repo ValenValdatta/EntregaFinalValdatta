@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -24,6 +25,7 @@ header h1 {
   text-align: center;
   font-size: 3rem;
   color: black;
+  padding-top: 2rem;
 }
 header nav div a {
   color: black;
@@ -45,7 +47,7 @@ header nav div ul li .nav-item:hover {
 footer {
   background-color: rgb(4, 117, 0);
   bottom: 0;
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 footer .redes {
@@ -60,19 +62,19 @@ footer h4 {
 }
 
 main .container {
-  height: 100vh;
+  min-height: 100vh;
 }
 main .cajaOfertas {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 400px;
 }
 main .cajaOfertas p {
   text-align: center;
 }
 
 main {
-  height: 600px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -83,7 +85,20 @@ main .carousel {
   height: 360px;
 }
 
-main div p {
+body {
+  text-align: left;
+}
+body .mainNosotros {
+  min-height: 100vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+body .mainNosotros div .textNosotros {
+  padding: 2rem;
+}
+body .mainNosotros div .textNosotros ul li {
   padding: 1rem;
 }
 
@@ -91,14 +106,28 @@ main .formulario {
   text-align: center;
 }
 
-main .terminos {
+main {
   display: inline-block;
   padding: 1rem;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+main h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+main li {
+  font-size: 1.2rem;
 }
 
-.terminos {
-  display: inline-block;
-  padding: 1rem;
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+  padding-bottom: 150px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

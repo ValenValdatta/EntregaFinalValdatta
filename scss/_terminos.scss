@@ -1,9 +1,15 @@
-main .terminos {
+main  {
     display: inline-block;
     padding: 1rem;
+    margin-left: 300px;
+    margin-right: 300px;
+    h2 {
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    li {
+        font-size: 1.2rem;
+    }
 }
 
-.terminos {
-    display: inline-block;
-    padding: 1rem;
-}

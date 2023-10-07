@@ -1,12 +1,8 @@
 main {
-    
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 5rem;
-
-    .carousel {
-        width: 640px;
-        height: 360px;
+    padding-bottom: 150px;
     }
-}

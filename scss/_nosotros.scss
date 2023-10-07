@@ -1,7 +1,25 @@
-main {
-    div{
-        p{
-            padding: 1rem;
+body {
+    text-align: left;
+
+    .mainNosotros {
+        min-height: 100vh;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 1.3rem;
+        padding: 20px;
+
+
+        div {
+            .textNosotros {
+                padding: 2rem;
+
+                ul {
+                    li {
+                        padding: 1rem;
+                    }
+                }
+            }
+
         }
     }
 }
