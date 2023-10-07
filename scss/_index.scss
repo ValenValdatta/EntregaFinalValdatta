@@ -1,7 +1,14 @@
 main {
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 5rem;
+    .container {
+        min-height: 100vh;
+        
+    }
+    .cajaOfertas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            text-align: center;
+        }
+    }
 }

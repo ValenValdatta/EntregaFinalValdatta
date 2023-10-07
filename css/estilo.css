@@ -12,6 +12,9 @@ h2 {
 body {
   background-color: rgb(49, 141, 65);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
 }
 
 header {
@@ -41,8 +44,9 @@ header nav div ul li .nav-item:hover {
 
 footer {
   background-color: rgb(4, 117, 0);
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  bottom: 0;
+  position: relative;
+  width: 100%;
 }
 footer .redes {
   text-align: center;
@@ -55,12 +59,16 @@ footer h4 {
   text-align: center;
 }
 
-main {
-  height: 600px;
+main .container {
+  height: 100vh;
+}
+main .cajaOfertas {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .cajaOfertas p {
+  text-align: center;
 }
 
 main {
